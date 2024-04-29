@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #000; /* цвет фона карточки */
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px; /* добавляем больший отступ справа и слева, чем сверху и снизу */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%; /* или оставьте auto, чтобы ширина автоматически подстраивалась под содержимое */
+}
+
+
+.card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card form input[type="text"],
+.card form input[type="number"],
+.card form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.card form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card form button:hover {
+    background-color: #45a049;
+}
+
+.card form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > * {
+    margin-bottom: 10px; /* Отступ между элементами */
+}
